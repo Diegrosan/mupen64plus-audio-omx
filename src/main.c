@@ -125,7 +125,7 @@ static uint32_t uiNumBuffers = DEFAULT_NUM_BUFFERS;
 
 static uint32_t	bNative = 0;
 
-static uint32_t uiUnderrunMode = 0;
+static uint32_t uiUnderrunMode = 1;
 
 static uint32_t critical_failure = 0;
 
