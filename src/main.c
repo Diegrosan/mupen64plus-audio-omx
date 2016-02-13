@@ -46,7 +46,7 @@
 
 #include <SDL.h>
 
-#define DEFAULT_BUFFER_SIZE 4096
+#define DEFAULT_BUFFER_SIZE 2048
 
 /* This sets default frequency what is used if rom doesn't want to change it.
    Probably only game that needs this is Zelda: Ocarina Of Time Master Quest
@@ -67,7 +67,7 @@
 #define OUTPUT_PORT 1
 
 /* Latency in ms that the audio buffers may have*/
-#define DEFAULT_LATENCY 100
+#define DEFAULT_LATENCY 300
 
 /* Number of buffers used by Audio*/
 #define DEFAULT_NUM_BUFFERS 3
